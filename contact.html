@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="flex_container">
+        <h1 id="header_name">Shahram Khatibi</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="shadow">
+        <h1>Contact Us</h1>
+        <p>
+          Have questions? Fill out the form below and we'll get back to you
+          soon!
+        </p>
+      </section>
+
+      <section>
+        <div class="flex_container_form">
+          <div class="shadow flex_item_form_left">
+            <form
+              action="mailto:youremail@example.com"
+              method="post"
+              enctype="text/plain"
+            >
+              <label for="name">Full Name *</label><br />
+              <input type="text" id="name" name="name" value="Enter your full name"/><br /><br />
+
+              <label for="email">Email *</label><br />
+              <input type="email" id="email" name="email" value="your.email@example.com" /><br /><br />
+
+              <label for="subject" > Subject *</label>
+              <select name="subject" id="subject">
+                <option value="Emergency">This is email is an emergency</option>
+              </select>
+              
+
+              <label for="message">Message *</label><br />
+              <textarea id="message" name="message"></textarea><br /><br />
+
+
+              <input type="submit" value="Send Message" />
+            </form>
+          </div>
+
+          <div class="flex_item_form_right">
+            <div class="shadow item_form_right_top">
+              <h3>Contact Info</h3>
+              <div class="email">
+                <p class="email_icon">&#x1F4E7;</p>
+                <div class="email_info">
+                  <h4>Email</h4>
+                  <p>info@student.edu</p>
+                </div>
+              </div>
+
+              <div class="phone">
+                <p class="phone_icon">&#x1F4f1;</p>
+                <div class="phone_info">
+                  <h4>Phone</h4>
+                  <p>(555) - 555 - 5555</p>
+                </div>
+              </div>
+
+              <div class="location">
+                <p class="location_icon">&#x1F4cd;</p>
+                <div class="location_info">
+                  <h4>Location</h4>
+                  <p>123 Learning Lane</p>
+                  <p>Student City, SC 12345</p>
+                </div>
+              </div>
+            </div>
+            <div class="shadow item_form_right_bottom">
+              <h4>Office Hours</h4>
+              <div class="hours">
+                <p>Monday - friday</p>
+                <p>9am - 5pm</p>
+              </div>
+              <div class="hours">
+                <p>Saturday</p>
+                <p>9am - 5pm</p>
+              </div>
+              <div class="hours">
+                <p>sunday</p>
+                <p>9am - 5pm</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="flex_container">
+      <p id="footer_text">© 2026 Student Portfolio. All rights reserved.</p>
+
+      <ul id="footer_nav">
+        <li>jump link 1</li>
+        <li>jump link 2</li>
+      </ul>
+    </footer>
+  </body>
+</html>
